@@ -30,7 +30,7 @@ artifacts:
 deploy:
   provider: GitHub
   auth_token:
-    secure: LRyrixQEgYtxLDVKSCkxkjmAzMS4gi+DABeBjkT1r9Tunat6Satr15XuwkCWwoY0
+    secure: YL9PRWrFfojTUJ0dWsfKxMG90B6DMNo+TN9Rvv5pBLngiA2zfW2VJZwzcWcVpLEx
   artifact: /.*/
   on:
     branch: master
