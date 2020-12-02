@@ -27,7 +27,6 @@ namespace WhiteFleet
 		private string fileName;
 
 		private MediaPlayer mediaPlayer = new MediaPlayer();
-		mediaPlayer.Volume = 0.3f; // too fucking loud lmfao
 		private bool _isPlaying = false;
 		private bool isPlaying
 		{
@@ -40,6 +39,7 @@ namespace WhiteFleet
 					_isPlaying = value;
 					if (value)
 					{
+						mediaPlayer.Volume = 30; // too fucking loud lmfao
 						mediaPlayer.Play();
 					}
 					else
